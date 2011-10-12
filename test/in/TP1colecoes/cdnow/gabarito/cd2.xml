@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[Garth Brooks]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Double Live]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$26.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$18.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[Garth Brooks]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$15.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.18]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[Garth Brooks]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Limited Series Box Set]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$44.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$31.48]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[Foxy Brown]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Chyna Doll]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[Junior Brown]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Long Walk Back]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[Burton/Corea/Metheny/Hanes/Hol]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Like Minds]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[Busta Rhymes]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[E.L.E.]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cake]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Prolonging The Magic]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cardigans]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Gran Turismo]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[Mariah Carey]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[No. 1'S]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="11">
+			<ATOM class="1">
+				<VALUE><![CDATA[Carreras/Domingo/Pavarotti]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[3 Tenors-Paris 1998]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$19.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$13.98]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="12">
+			<ATOM class="1">
+				<VALUE><![CDATA[Eva Cassidy]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Songbird]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$14.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$10.48]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="13">
+			<ATOM class="1">
+				<VALUE><![CDATA[Manu Chao]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Clandestino]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$15.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.18]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="14">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cher]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Believe]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="15">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cherry Poppin' Daddies]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Zoot Suit Riot]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="16">
+			<ATOM class="1">
+				<VALUE><![CDATA[Eagle-Eye Cherry]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Desireless]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="17">
+			<ATOM class="1">
+				<VALUE><![CDATA[F. Chopin]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Fant On Polish Airs/Impromptus]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="18">
+			<ATOM class="1">
+				<VALUE><![CDATA[City Of Angels (Soundtrack)]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Soundtrack]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="19">
+			<ATOM class="1">
+				<VALUE><![CDATA[Clannad]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Landmarks]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="20">
+			<ATOM class="1">
+				<VALUE><![CDATA[Collective Soul]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Dosage]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="21">
+			<ATOM class="1">
+				<VALUE><![CDATA[Phil Collins]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="22">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane Quartet]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Classic Quartet-Complete Impulse!]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$89.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$62.98]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="23">
+			<ATOM class="1">
+				<VALUE><![CDATA[Ry Cooder]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Buena Vista Social Club]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="24">
+			<ATOM class="1">
+				<VALUE><![CDATA[Elvis Costello]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Painted From Memory (W/ Burt Bacharach)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="25">
+			<ATOM class="1">
+				<VALUE><![CDATA[Creed]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[My Own Prison]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="26">
+			<ATOM class="1">
+				<VALUE><![CDATA[Elvis Crespo]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Suavemente]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$13.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$9.78]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="27">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sheryl Crow]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Globe Sessions]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$17.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$12.58]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="28">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cry Cry Cry]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Cry Cry Cry]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$16.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$11.88]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="29">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Kind Of Blue]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$11.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$8.38]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="30">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Complete Bitches Brew Sessions]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[$69.97]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[$48.98]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

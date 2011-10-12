@@ -1,0 +1,58 @@
+Trabalho Prático de TechWeb 2011/02
+Autor: Karane Vieira
+email: karane@gmail.com
+
+== Sobre a instalação do g++ ==
+
+Um requisito do projeto é instalar o g++-3.3,
+caso contrário, o projeto htmlcxx fica com erros de sintaxe.
+
+Para contornar este problema, faça o seguinte (no Ubuntu)
+
+1. Adicione a seguinte linha no arquivo /etc/apt/sources.list
+
+deb http://us.archive.ubuntu.com/ubuntu gutsy main universe
+
+2. Execute
+sudo apt-get update
+sudo apt-get install g++-3.3
+
+3. Redefina o link g++ em /usr/bin da seguinte forma
+cd /usr/bin
+sudo rm g++
+sudo ln -s g++-3.3 g++
+
+
+
+pronto, agora prossiga para a compilação do projeto.
+
+
+== Sobre como instalar e executar o projeto exemplo ===
+
+Entre na pasta htmlcxx-0.7.3 e execute
+./configure
+make
+sudo make install
+
+
+Agora entre na pasta classes_equivalencia e execute
+make
+
+
+Então execute
+./clean_pages.pl <arquivo html> > <arquivo html em uma linha soh>   ## este passo é importante, assim o parser html funciona melhor.
+./classes_equivalencia/ksubtrees <arquivo html em uma linha soh>
+
+A saída do programa contém o Índice pré-ordem de cada nodo, seguido da classe de equivalência e texto naquele nodo.
+
+Obs:
+O código fonte tem mais instruções e comentários que podem ser úteis.
+Consulte o monitor deste Trabalho Prático para mais informações nos horários estabelecidos e dias estabelecidos.
+
+
+
+
+
+
+
+

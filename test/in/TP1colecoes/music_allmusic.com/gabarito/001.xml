@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA['Round About Midnight [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2001]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis Quintet]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA['Round About Midnight [Japan]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2001]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA['Round About Midnight]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1955]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jelly Roll Morton]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[1923-1924 [Milestone]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1923]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[Chick Webb]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[1929-1934]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1929]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[Stéphane Grappelli]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[1935-1940]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1935]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[Willie "The Lion" Smith]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[1938-1940]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1938]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bobby Short]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[50 by Bobby Short]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1986]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[Original Dixieland Jazz Band]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[75th Anniversary]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1917]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane Quartet]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[A Love Supreme [Japan 2001 Reissue]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1964]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="11">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[A Love Supreme]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1964]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="12">
+			<ATOM class="1">
+				<VALUE><![CDATA[Fletcher Henderson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[A Study in Frustration/Thesaurus of Classic Jazz]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1923]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="13">
+			<ATOM class="1">
+				<VALUE><![CDATA[Kenny Dorham]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Afro-Cuban]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1955]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="14">
+			<ATOM class="1">
+				<VALUE><![CDATA[Ahmad Jamal]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Ahmad Jamal at the Pershing: But Not for Me]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1958]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="15">
+			<ATOM class="1">
+				<VALUE><![CDATA[Anita O'Day]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Anita Sings the Most]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="16">
+			<ATOM class="1">
+				<VALUE><![CDATA[Art Pepper]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Art Pepper + Eleven: Modern Jazz Classics]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1959]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="17">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonny Sharrock]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Ask the Ages]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1991]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="18">
+			<ATOM class="1">
+				<VALUE><![CDATA[Dizzy Gillespie]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[At Newport [Verve]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="19">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jimmy McGriff]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[At the Apollo]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1963]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="20">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sun Ra]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Atlantis]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1967]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="21">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jimmy Smith]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Back at the Chicken Shack]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1960]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="22">
+			<ATOM class="1">
+				<VALUE><![CDATA[Milt Jackson & John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bags and Trane]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1959]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="23">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis & Modern Jazz Giants]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bags' Groove]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1954]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="24">
+			<ATOM class="1">
+				<VALUE><![CDATA[Barney Kessel]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Barney Kessel, Vol. 3: To Swing or Not to Swing]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1955]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="25">
+			<ATOM class="1">
+				<VALUE><![CDATA[Ornette Coleman]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Beauty Is a Rare Thing: The Complete Atlantic Recordings]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1959]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="26">
+			<ATOM class="1">
+				<VALUE><![CDATA[George Benson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Beyond the Blue Horizon [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1971]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="27">
+			<ATOM class="1">
+				<VALUE><![CDATA[Mahavishnu Orchestra With John McLaughl]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Birds of Fire]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1972]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="28">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Birth of the Cool]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1949]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="29">
+			<ATOM class="1">
+				<VALUE><![CDATA[Miles Davis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bitches Brew [Bonus Track]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1969]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="30">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bix Beiderbecke]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bix Beiderbecke, Vol. 1: Singin' the Blues]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1927]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="31">
+			<ATOM class="1">
+				<VALUE><![CDATA[Wynton Marsalis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Black Codes (From the Underground)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1985]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="32">
+			<ATOM class="1">
+				<VALUE><![CDATA[Andrew Hill]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Black Fire]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1963]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="33">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cal Tjader]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Black Orchid]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1956]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="34">
+			<ATOM class="1">
+				<VALUE><![CDATA[Clifford Jordan and John Gilmore]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blowing in From Chicago [Original LP]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="35">
+			<ATOM class="1">
+				<VALUE><![CDATA[Ike Quebec]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue and Sentimental]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1961]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="36">
+			<ATOM class="1">
+				<VALUE><![CDATA[Richard "Groove" Holmes]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue Groove]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1966]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="37">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cassandra Wilson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue Light Til Dawn]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="38">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue Train [Expanded Edition]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2003]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="39">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue Train [The Ultimate Blue Train]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1997]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="40">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blue Train]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="41">
+			<ATOM class="1">
+				<VALUE><![CDATA[Woody Herman]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blues on Parade [GRP]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1937]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="42">
+			<ATOM class="1">
+				<VALUE><![CDATA[Lou Donaldson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blues Walk]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1958]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="43">
+			<ATOM class="1">
+				<VALUE><![CDATA[Gene Ammons with Sonny Stitt]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Boss Tenors: Straight Ahead from Chicago 1961]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1961]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="44">
+			<ATOM class="1">
+				<VALUE><![CDATA[Rahsaan Roland Kirk]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bright Moments]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1973]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="45">
+			<ATOM class="1">
+				<VALUE><![CDATA[Lee Morgan]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Candy]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="46">
+			<ATOM class="1">
+				<VALUE><![CDATA[Teddy Wilson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Central Avenue Blues]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1948]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="47">
+			<ATOM class="1">
+				<VALUE><![CDATA[Erroll Garner]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Concert by the Sea]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1955]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="48">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jimmy Dorsey & His Orchestra]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Contrasts [Decca]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1936]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="49">
+			<ATOM class="1">
+				<VALUE><![CDATA[Count Basie with Joe Williams]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Count Basie Swings -- Joe Williams Sings]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1955]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="50">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Oscar Pettiford Orchestra]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Deep Passion]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1956]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

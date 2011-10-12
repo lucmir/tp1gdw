@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Barberani Orvieto Classico Castagnolo]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Umbria]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A lovely, dry vineyard-designated Orvieto Classico from one of the region's best producers. Delicious flavors of fig, green melon, pear, and light herb offer a refreshing respite when you've had one too many oaky whites.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$13.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Barberani Grechetto]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Grechetto is the most distinctive and interesting of the five grape varieties used in Orvieto Classico. This wine offers a nice clean, refreshing taste of melon, pear, and anise. Pairs beautifully with fresh trout, calamari, or Ceasar salad.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$19.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bartenura Asti Spumante]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This wonderfully aromatic Italian bubbly is bright, crisp, and just sweet enough to pair well with ripe fruit. Kosher for Passover.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$14.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bolognani Muller-Thurgau]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Trentino]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Muller-Thurgau (Mew-lair Toor-gau) sounds suspiciously like a kind of sausage or a souped-up European racecar. In fact, it’s usually a boring and bland German-designed grape variety that can be transformed into something sensuous and sublime in the hands of a talented winemaker such as Diego Bolognani.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$13.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Verdicchio Classico]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Brunori]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Marches]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This pale, bright and refreshing white from Italy's Adriatic coast is at its best now and over the next 12 months.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$9.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Clelia Romano Fiano di Avellino, Colli di Lapio]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Campania]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A complex, dry wine from the Campania region of Italy. Some believe the Fiano grape variety produces the most distinguished dry whites of southern Italy. Just 660 cases produced.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$18.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Cortenova Pinot Grigio]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Veneto]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This mouthwatering white is perfect for casual entertaining and alfresco dining. Best now and over the next 12 months.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$7.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D' Aquino Gavi di Gavi]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This is not your everyday white wine. Easy to drink and better than ever, Italian whites are on the rise. This citrusy Gavi would be a great match with creamy pasta dishes or a mushroom risotto.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$8.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Danzante Pinot Grigio Delle Venezie]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Pinot Grigio blended from Northern Italian vineyards in the Trentino, Friuli, and Alto Adige regions. Fresh, lively, and full of melon and citrus fruits, the 1998]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Danzante is a refreshing wine to enjoy with cold dishes and shellfish.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$8.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Del Tufo Moscato d'Asti]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Moscato d'Asti is a perennial favorite among warm weather wines. Delicately sweet and delightfully frizzante (semi-sparkling), this seductive northern Italian white is naturally low in alcohol at only 5.5 percent.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$15.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

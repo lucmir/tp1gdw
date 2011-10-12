@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[1997]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Lugana]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Otella]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Veneto]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A soft, aromatic white made from a clone of the Trebbiano grape. Flavors suggest melon, straw, citrus and mineral.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$9.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Paradiso Vernaccia di San Gimignano]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Tuscany]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Vernaccia di San Gimignano is a lovely example of the intensely subtle white wines of the finest Italian artisan producers, such as Paolo Caciorgna of Paradiso. Lean, flavorful, and a fave of Michelangelo himself -- have some soon to experience Tuscany in a glass.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$11.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Petrucco Sauvignon Blanc]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Friuli]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Many Italian Sauvignon Blancs are short and simple, but Petrucco’s 1998 is a terrific exception. Its persistent, zesty components make this a wine to pair magnificently with linguini and clams in white-wine sauce. Fewer than 1,000 cases produced.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$15.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[1990]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Piazzano Vin Santo 'Bianco dell' Empolese' (375 ml)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Tuscany]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Vin Santo, or 'holy wine,' is one of Italy's great contributions to the vinous landscape, and Piazzano's is one of the finest we have tasted. 150 cases of half bottles produced.]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[$27.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Pra Soave Classico Superiore]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A pleasant, refreshing, modern Italian white with hints of pear, blanched almonds, and springtime flowers. Pull the cork, pour yourself a glass, and slither into the backyard lounge chair.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$12.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Rashi Moscato d'Asti]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This delicious white from the Piedmont region of northern Italy is delicately sweet and "frizzante" (bubbly). Naturally low in alcohol (only 5.5 percent!), it's a perfect aperitif.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$12.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Rotari Blanc de Noir Brut]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Trento]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[From Italy comes this jazzy sparkler of impressive value. A beautiful wine with a faint blush color made from 75 percent Pinot Noir and 25 percent Chardonnay. A great choice when you're expecting a crowd!]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$11.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Rotari Brut Arte Italiana Trento]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Trentino-Alto Adige]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[This Italian bubbly is bursting with lively fruit flavors of Fuji apples, Asian pears, and melons, all well integrated into a soft mouthfeel with a long, clean finish.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$11.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Stefano Massone Gavi "Vigneto Masera,"]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A light-bodied, very dry white from the northwestern corner of Italy. A great choice for any simple preparation of fresh shellfish or fin-fish.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$14.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Tenuta di Tavignano Verdicchio dei Castelli di Jesi Classico]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Marches]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A brilliant, crisp Italian white from an appellation that rarely impresses. Green apple, straw, and mineral flavors with a long, dry finish that intensifies with mineral and citrus. A wine.com exclusive.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$12.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

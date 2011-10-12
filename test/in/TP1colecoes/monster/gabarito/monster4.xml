@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Houston]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Sr. Network Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Hall Kinion]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Houston]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Test Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Certified Associates]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[San Jose]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Q/A Software TEST ENGINEER]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[One Touch Systems]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[San Francisco]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Sr. Java Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Hall Kinion]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Dallas]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Sr. Project Manager]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Interactive Object Solutions]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Austin]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Senior Communicaitons Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[ITRS Consulting]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[San Jose]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Sr. Product Marketing Director - Interne]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Olsten Staffing Services]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[PA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Fort Washington]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Web Developer / Java C++]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Datatech Personnel]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Los Angeles]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Programmer- Client Server Project Lead]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Genesis 2000®, Inc.]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[PA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Philadelphia]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Senior Developer - C++ or Java]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Datatech Personnel]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="11">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[San Diego]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Database Architect]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[TriStaff Group]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="12">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Orlando]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Web Producer, Creative Content Manager]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Technisource]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="13">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Dallas]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Network Operations Center Specialist II]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Skytec Services]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="14">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Austin]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Senior Windows Internet Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[ITRS Consulting]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="15">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Canada]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Quebec]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[IT Professionals / Professionnels des IT]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Planaxis Technologies]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="16">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[San Rafael]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Project Manager]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[ComputersAmerica]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="17">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Illinois]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Senior Application Developer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[iXL]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="18">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[MD]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Abingdon,MD]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Software Engineer(DMS)]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[SAIC]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="19">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Chicago]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Client/Server Developer -Healthcare]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[KPMG]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="20">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Chicago]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[C, SQL, UNIX- Programmer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[First Chicago NBD]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="21">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[France]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Ile of France]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Professionnels des IT]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Planaxis Technologies FRANCE]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="22">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[France]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Ile of France]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[IT Professionals]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Planaxis Technologies]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="23">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NH]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Portsmouth]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Project Manager]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Bow Street Software]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="24">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NC]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Research Triangle Pk]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Business Analyst/Editor]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Smart Online]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="25">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Jacksonville]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Frame Relay Voice Sales Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="26">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Tampa]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Telecom Company Call Center Director]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="27">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Tampa]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[PBX Voice CPE Test Lab Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="28">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Tampa]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[ATM Switch Test Lab Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="29">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Tampa]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Voice Sales Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="30">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Houston]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Houston IT searches on: 6-1 (no H1-B's)]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Career Brokers]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="31">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NY]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Albany]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[IDNX NOC Tech - Maintenance]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="32">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Tampa]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[NOC ATM Switch Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="33">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[CA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Los Angeles]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Frame Relay Voice Sales Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="34">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NY]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Albany]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Frame Relay NOC Tech - Maintenance]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="35">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Netherlands]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Zuid Holland]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Gouda]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Web Workflow / Groupware specialist]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Interchange Group]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="36">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Orlando]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[NOC Switch Supervisor DMS 100 or 500]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[System One Technical]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="37">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Netherlands]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Zuid Holland]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Gouda]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[System Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Interchange Group]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="38">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jun 1]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[France]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Ile of France]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Information System Engineer]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Allegro RH]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="39">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 30]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[FL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Boca Raton]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[HOT STARTUP!!! STOCK!!]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Hall Kinion]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="40">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Chicago]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Electronic Commerce Domino Architect]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="41">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[TX]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Dallas]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[MCSE Architect]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="42">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[WI]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Milwaukee]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Messaging Architect]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="43">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NJ]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Central]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[ITE Consultant- Sr.Consultant]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="44">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[OH]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Cleveland]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Electronic Commerce Sr. Consultant]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="45">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[OH]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Cincinnati]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Electronic Commerce-Cons.-Sr.Manager]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="46">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IL]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Chicago]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Electronic Commerce Architect]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="47">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[NY]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Teaneck, NJ]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[SOFTWARE ENGINEERS]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Graphnet]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="48">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[IN]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Indianapolis]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Client/Server Consultant-Internet/WWW]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="49">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[UK]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[London]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Electronic Commerce Practice Leader]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Whittman-Hart]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="50">
+			<ATOM class="1">
+				<VALUE><![CDATA[May 28]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[US]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[WA]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Seattle]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Internet Security Analyst]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[Engineering]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

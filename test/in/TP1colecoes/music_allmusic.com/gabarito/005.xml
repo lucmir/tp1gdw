@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[Lee Morgan]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The Sidewinder]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1963]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Yellowjackets]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The Spin]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1989]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[Steve Lacy]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The Straight Horn of Steve Lacy]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1960]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[Blue Mitchell]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The Thing to Do]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1964]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bobby McFerrin]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The Voice]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1984]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[Shelly Manne & His Men]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[The West Coast Sound, Vol. 1]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1953]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[Thelonious Monk With John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Thelonious Monk with John Coltrane]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[J.J. Johnson With Al Grey]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Things Are Getting Better All the Time]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1983]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cannonball Adderley With Milt Jackson]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Things Are Getting Better [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1958]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[Quincy Jones]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[This Is How I Feel About Jazz [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1992]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="11">
+			<ATOM class="1">
+				<VALUE><![CDATA[Quincy Jones]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[This Is How I Feel About Jazz]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1956]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="12">
+			<ATOM class="1">
+				<VALUE><![CDATA[Dave Brubeck Quartet]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Time Out]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1959]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="13">
+			<ATOM class="1">
+				<VALUE><![CDATA[Earl Hines]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Tour de Force]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1972]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="14">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cecil Taylor]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Unit Structures]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1966]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="15">
+			<ATOM class="1">
+				<VALUE><![CDATA[Larry Young]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Unity]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1965]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="16">
+			<ATOM class="1">
+				<VALUE><![CDATA[Joe Pass]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Virtuoso]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1973]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="17">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonny Rollins]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Way Out West [Analogue Productions Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2002]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="18">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonny Rollins]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Way Out West [Contemporary Limited]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2000]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="19">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonny Rollins]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Way Out West [Fantasy]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="20">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonny Rollins]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Way Out West [JVC]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="21">
+			<ATOM class="1">
+				<VALUE><![CDATA[Weather Report]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Weather Report [1971]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1971]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="22">
+			<ATOM class="1">
+				<VALUE><![CDATA[Joshua Redman]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Wish]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="23">
+			<ATOM class="1">
+				<VALUE><![CDATA[Lester Young and the Oscar Peterson Tri]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[With the Oscar Peterson Trio [Verve]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1952]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="24">
+			<ATOM class="1">
+				<VALUE><![CDATA[Henry "Red" Allen]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[World on a String]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1957]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="25">
+			<ATOM class="1">
+				<VALUE><![CDATA[Tommy Dorsey]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Yes, Indeed!]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1939]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

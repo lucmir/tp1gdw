@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[Big Star]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[#1 Record/Radio City]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1992]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[Randy Newman]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[12 Songs]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1970]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[Little Richard]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[18 Greatest Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1985]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jerry Lee Lewis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[18 Original Sun Greatest Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1984]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bill Haley & His Comets]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[20th Century Masters - The Millennium Collection: The Best]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Small Faces]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[25 Greatest Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1992]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Fall]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[458489 A-Sides]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1990]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[Steely Dan]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[A Decade of Steely Dan]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1985]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[Faces]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[A Nod Is as Good as a Wink...To a Blind Horse]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1971]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[Santana]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Abraxas [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="11">
+			<ATOM class="1">
+				<VALUE><![CDATA[Santana]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Abraxas]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1970]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="12">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Animals]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Absolute Animals 1964-1968]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2003]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="13">
+			<ATOM class="1">
+				<VALUE><![CDATA[Jerry Lee Lewis]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[All Killer, No Filler: The Anthology]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="14">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Ramones]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[All the Stuff (And More), Vol. 1]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1990]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="15">
+			<ATOM class="1">
+				<VALUE><![CDATA[George Harrison]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[All Things Must Pass]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1970]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="16">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Grateful Dead]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[American Beauty [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[2003]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="17">
+			<ATOM class="1">
+				<VALUE><![CDATA[Grateful Dead]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[American Beauty]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1970]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="18">
+			<ATOM class="1">
+				<VALUE><![CDATA[Eno]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Another Green World]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1975]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="19">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Righteous Brothers]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Anthology 1962-1974]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1989]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="20">
+			<ATOM class="1">
+				<VALUE><![CDATA[Frankie Valli & the Four Seasons]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Anthology]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1988]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="21">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Lovin' Spoonful]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Anthology]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1990]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="22">
+			<ATOM class="1">
+				<VALUE><![CDATA[Guns N' Roses]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Appetite for Destruction]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1987]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="23">
+			<ATOM class="1">
+				<VALUE><![CDATA[Cheap Trick]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[At Budokan]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1979]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="24">
+			<ATOM class="1">
+				<VALUE><![CDATA[AC/DC]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Back in Black]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1980]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="25">
+			<ATOM class="1">
+				<VALUE><![CDATA[Phil Spector]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Back to Mono (1958-1969)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1991]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="26">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bob Dylan]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Blood on the Tracks]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1975]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="27">
+			<ATOM class="1">
+				<VALUE><![CDATA[John Mayall & the Bluesbreakers]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bluesbreakers with Eric Clapton]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1966]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="28">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bob Dylan]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Bob Dylan's Greatest Hits, Vol. 2]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1971]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="29">
+			<ATOM class="1">
+				<VALUE><![CDATA[Bruce Springsteen]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Born in the U.S.A.]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1984]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="30">
+			<ATOM class="1">
+				<VALUE><![CDATA[Buffalo Springfield]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Buffalo Springfield Again]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1967]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="31">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Everly Brothers]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Cadence Classics: Their 20 Greatest Hits]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1986]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="32">
+			<ATOM class="1">
+				<VALUE><![CDATA[David Bowie]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Changesbowie]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1990]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="33">
+			<ATOM class="1">
+				<VALUE><![CDATA[Big Brother & the Holding Company]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Cheap Thrills [Bonus Tracks]]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="34">
+			<ATOM class="1">
+				<VALUE><![CDATA[Big Brother & the Holding Company]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Cheap Thrills]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1968]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="35">
+			<ATOM class="1">
+				<VALUE><![CDATA[Creedence Clearwater Revival]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Chronicle, Vol. 1]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1976]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="36">
+			<ATOM class="1">
+				<VALUE><![CDATA[Minor Threat]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Complete Discography]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1988]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="37">
+			<ATOM class="1">
+				<VALUE><![CDATA[Madness]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Complete Madness]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1982]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="38">
+			<ATOM class="1">
+				<VALUE><![CDATA[Roxy Music]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Country Life]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1974]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="39">
+			<ATOM class="1">
+				<VALUE><![CDATA[Joni Mitchell]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Court and Spark]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1974]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="40">
+			<ATOM class="1">
+				<VALUE><![CDATA[Various Artists]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D.I.Y.: Anarchy in the UK: UK Punk I (1976-77)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="41">
+			<ATOM class="1">
+				<VALUE><![CDATA[Various Artists]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D.I.Y.: Blank Generation: The New York Scene (1975-78)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="42">
+			<ATOM class="1">
+				<VALUE><![CDATA[Various Artists]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D.I.Y.: Come Out and Play: American Power Pop I (1975-78)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="43">
+			<ATOM class="1">
+				<VALUE><![CDATA[Various Artists]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D.I.Y.: Teenage Kicks: UK Pop (1976-79)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="44">
+			<ATOM class="1">
+				<VALUE><![CDATA[Various Artists]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[D.I.Y.: The Modern World: UK Punk II (1977-78)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1993]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="45">
+			<ATOM class="1">
+				<VALUE><![CDATA[Black Flag]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Damaged]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1981]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="46">
+			<ATOM class="1">
+				<VALUE><![CDATA[The Damned]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Damned Damned Damned]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1977]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="47">
+			<ATOM class="1">
+				<VALUE><![CDATA[Sonic Youth]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Daydream Nation]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1988]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="48">
+			<ATOM class="1">
+				<VALUE><![CDATA[Neil Young]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Decade]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1977]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="49">
+			<ATOM class="1">
+				<VALUE><![CDATA[Pet Shop Boys]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Discography: The Complete Singles Collection]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1991]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="50">
+			<ATOM class="1">
+				<VALUE><![CDATA[Little Feat]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Dixie Chicken]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[1973]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>

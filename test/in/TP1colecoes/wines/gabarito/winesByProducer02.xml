@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA-SET>
+	<LIST>
+		<TUPLE id="1">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Ferrara Greco di Tufo Vigna Cicogna]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Campania]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Question: What do wine geeks drink on their days off? For answer, see below. P.S.: It's a wine.com exclusive.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$18.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="2">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Fontaleoni Vernaccia di San Gimignano "Vigna Casanuova,"]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Tuscany]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[A crisp, clean and refreshing dry white from one of Tuscany's ancient varietals and the lovely hill town of San Gimignano. Approximately 1000 cases produced.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$11.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="3">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Gaja Chardonnay Rossj Bass]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[From one of Italy's most famous producers comes this lovely, elegant Chardonnay. Unlike so many Chardonnays made today, this wine is fresh and lively and dominated by fruit, not oak.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$59.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="4">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Gaja Chardonnay Gaia & Rey]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Angelo Gaja planted the Gaia & Rey vineyard to Chardonnay in 1979 and these vines are now producing fruit of optimal quality. The site is named after Angelo’s eldest daughter Gaia Gaja, and his grandmother, Clotilde Rey. The vineyard lies 1,380 feet above sea level where fruit ripens slowly and retains crisp acidity. The 1998 Gaia & Rey is elegant and complex. Low yields (less than 2 tons per acre) and small-barrel aging make this an age-worthy wine peaking from 2003-2008. Just 1,000 cases produced.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$99.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="5">
+			<ATOM class="1">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Giorgio Rivetti Moscato d'Asti La Spinetta]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Giorgio Rivetti is widely considered the best producer of Moscato d'Asti. One sip of this delightfully frizzante (slightly sparkling) white and you'll know why.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$15.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="6">
+			<ATOM class="1">
+				<VALUE><![CDATA[1999]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Giorgio Rivetti Moscato d'Asti La Spinetta (375 ml)]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Giorgio Rivetti is widely considered the best producer of Moscato d'Asti. One sip of this delightfully frizzante (slightly sparkling) white and you'll know why.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$7.95]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="7">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Hofstatter Gewurztraminer Kolbenhof]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Gewurztraminer is thought to have originated in Tramin, a village in northern Italy. So it is not surprising that this wine, from the same site, is one of the world’s finest examples of its type. A brilliant, aromatic elixir to pair perfectly with oysters, foie gras, and mild curry dishes.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$25.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="8">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[Icardi Cortese L' Aurora]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Piedmont]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[From a producer known for Barbera, Dolcetto, Nebbiolo, and Moscato. One sip of this dry, refreshing beauty with pear, citrus, and floral scents and you'll understand why Icardi will soon be best known for his Cortese L'Aurora.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$12.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="9">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[La Cadalora Pinot Grigio]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Trentino]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[The latest vintage of our favorite Pinot Grigio. More character than the mass market brands, in particular that one you see EVERYWHERE that fetches at least $5 more a bottle. OK, I'll cool it now . . .;>)]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$14.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+		<TUPLE id="10">
+			<ATOM class="1">
+				<VALUE><![CDATA[1998]]></VALUE>
+			</ATOM>
+			<ATOM class="2">
+				<VALUE><![CDATA[La Rampa di Fugnano Vernaccia di San Gimignano Alata]]></VALUE>
+			</ATOM>
+			<ATOM class="3">
+				<VALUE><![CDATA[Tuscany]]></VALUE>
+			</ATOM>
+			<ATOM class="4">
+				<VALUE><![CDATA[Italy]]></VALUE>
+			</ATOM>
+			<ATOM class="5">
+				<VALUE><![CDATA[Shackled to Chardonnay? You don’t have to be. Try this single-vineyard Vernaccia from the Tuscany region of Italy. It’s light and has citrusy flavors that make it a perfect match with seafood.]]></VALUE>
+			</ATOM>
+			<ATOM class="6">
+				<VALUE><![CDATA[$14.00]]></VALUE>
+			</ATOM>
+		</TUPLE>
+	</LIST>
+</DATA-SET>
