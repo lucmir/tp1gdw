@@ -10,12 +10,12 @@ HTMLCXX_BIN_DIR = out
 
 KSUBTREES_DIR = $(CURRENT_DIR)/$(EXTRATOR_DIR)/classes_equivalencia
 
-CXX = g++
+CXX = g++-3.3
 CXXFLAGS = -DHAVE___GNU_CXX__EXT_HASH_MAP
 
-LIBSFLAGS = -L $(HTMLCXX_PATH)/${HTMLCXX_BIN_DIR}/bin -lhtmlcxx
-#-Wl,--rpath 
-# -Wl,/usr/local/lib
+LIBSFLAGS = -lhtmlcxx -Wl,--rpath  -Wl,/usr/local/lib
+
+
 		
 COMPILE = $(CXX) $(CXXFLAGS) $(LIBSFLAGS)
 
