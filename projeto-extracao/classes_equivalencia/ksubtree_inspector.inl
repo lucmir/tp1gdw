@@ -417,7 +417,11 @@ void edtl::KSubtreeInspector<T, _HashFcn, _EqualKey>::addTree(ctree<T> &src,
 				for (uint j = 0; j < children.size() && j < narcs; ++j) 
 				{
 					assert(K.size() > children[j] + id_offset);
-					if (K[children[j] + id_offset] != Garcs[*vit][j]) 
+          if (src.c_children(children[j] + id_offset).size() == 0) {
+            if (!src[children[j] + id_offset].isTag())
+              continue; 
+          }
+				if (K[children[j] + id_offset] != Garcs[*vit][j]) 
 					{
 						DEBUGP("Children mismatch\n");
 						found = false;

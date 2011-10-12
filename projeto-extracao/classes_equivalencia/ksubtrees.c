@@ -4,9 +4,8 @@
 #include <fstream>
 #include <functional>
 
-#include "ksubtree_inspector.h"
 //#include <edtl/rtdm.h>
-//#include <edtl/ksubtree_inspector.h>
+#include "ksubtree_inspector.h"
 #include <ext/hash_map>
 #include <errno.h>
 
@@ -296,7 +295,8 @@ int main(int argc, char **argv) {
 	//iterage em todas os nodos da árvore
 	for(i = 0; i < tamanho; i++)
 		{
-			cout << "Indice: " << i << "\tClasse: " << K[i] << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
+      //if (ctr.c_size(i) >= 3) 
+			cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
 			//Funcões que podem ser úteis.
                         
 			// ctr.c_size(i) tamanho da subárvore no nodo i
