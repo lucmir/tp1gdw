@@ -55,6 +55,6 @@ clean:
 
 # run
 run:	$(EXTRATOR_DIR)/clean_pages.pl $(KSUBTREES_TARGET)
-	perl ${EXTRATOR_DIR}/clean_pages.pl $(TESTFOLDER)/in/TP1colecoes/wines/pages/winesByProducer01.html > $(TESTFOLDER)/out/winesByProducer01_cleaned.html
-	./$(KSUBTREES_TARGET) $(TESTFOLDER)/out/winesByProducer01_cleaned.html > $(TESTFOLDER)/out/winesByProducer01_result.html
+	perl ${EXTRATOR_DIR}/clean_pages.pl $(TESTFOLDER)/in/TP1colecoes/music_allmusic.com/pages/001.html > $(TESTFOLDER)/out/001_cleaned.html
+	./$(KSUBTREES_TARGET) $(TESTFOLDER)/out/001_cleaned.html > $(TESTFOLDER)/out/001_result.html
 

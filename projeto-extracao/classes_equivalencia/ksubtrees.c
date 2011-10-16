@@ -264,6 +264,19 @@ void RemoveSubtrees(map<unsigned int, unsigned int>& topClasses, ctree<HTML::Nod
   }
 }
 
+void PrintLeafNodes(ctree<HTML::Node>& ctr, uint node) {
+	vector<uint> children = ctr.c_children(node);
+	if(children.size() == 0) {
+		if(!ctr[node].isTag()) {
+			cout << ctr[node].text() << endl;
+		}
+	}
+	else {
+		for (uint i = 0; i < children.size(); ++i) {
+			PrintLeafNodes(ctr, children[i]);
+		}
+	}
+}
 
 
 int main(int argc, char **argv) {
@@ -275,7 +288,6 @@ int main(int argc, char **argv) {
 	   }
 	 char* filename = argv[1]; //nome do arquivo html limpo (em uma linha apenas.)
 	 
-	 	
 
 	vector<uint> K; //vetor que conterá as classes de equivalencia para cada nodo.
 	KSubtreeInspector<HTML::Node, MY_NS_HASH<HTML::Node>, node_comparator> inspec; //o objeto que calcula as classes de equiv.
@@ -316,7 +328,7 @@ int main(int argc, char **argv) {
 	//iterage em todos os nodos para fazer contagem de frequencia
 	map<unsigned int, unsigned int> classFreq;
 	map<unsigned int, unsigned int>::iterator classFreqItr;
-  map<unsigned int, unsigned int> class_index;
+	map<unsigned int, unsigned int> class_index;
 	for(i = 0; i < tamanho; i++) {
 		cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
     if (ctr.c_size(i) >= 3) {
@@ -361,23 +373,21 @@ int main(int argc, char **argv) {
 		cout << topClassesItr->first << "\n";
 	}
 
-  //remove subtrees dos top10
-  for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end();
-      ++topClassesItr) {
-    RemoveSubtrees(topClasses, ctr, K, class_index[topClassesItr->first]);    
-  }
+	//remove subtrees dos top10
+	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); ++topClassesItr) {
+		RemoveSubtrees(topClasses, ctr, K, class_index[topClassesItr->first]);
+	}
 
 	cout << "\nTopClasses:\n";
-	for(topClassesItr = topClasses.begin(); topClassesItr!=topClasses.end(); topClassesItr++) {
+	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); topClassesItr++) {
 		cout << topClassesItr->first << "\n";
 	}
 
-	//atribui classes para cada registro
-	for(i = 0; i < tamanho; i++) {
+	//imprime registros
+	for(i=0; i < tamanho; i++) {
 		if(topClasses.find(K[i]) != topClasses.end()) {
-			//TODO verifica se elementos das classes sao subarvores de arvores de outras classes
+			PrintLeafNodes(ctr, i);
 		}
-
 	}
 
 }
