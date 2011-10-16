@@ -413,22 +413,28 @@ void edtl::KSubtreeInspector<T, _HashFcn, _EqualKey>::addTree(ctree<T> &src,
 
 				const std::vector<uint> &children(src.c_children(node_id));
 				found = true;
-				//compara se os nodos filhos s�o iguais
-				for (uint j = 0; j < children.size() && j < narcs; ++j) 
-				{
+				//compara se os nodos filhos sao iguais
+				for (uint j = 0; j < children.size() && j < narcs; ++j) {
 					assert(K.size() > children[j] + id_offset);
-          if (src.c_children(children[j] + id_offset).size() == 0) {
-            if (!src[children[j] + id_offset].isTag())
-              continue; 
-          }
-				if (K[children[j] + id_offset] != Garcs[*vit][j]) 
-					{
+
+					//nodo folha e ignorado na comparacao
+					if (src.c_children(children[j] + id_offset).size() == 0) {
+						if (!src[children[j] + id_offset].isTag()) {
+							continue;
+						}
+					}
+
+					if (K[children[j] + id_offset] != Garcs[*vit][j]) {
 						DEBUGP("Children mismatch\n");
 						found = false;
-						break;	
+						break;
 					}
 				}
-				if (found) break;
+
+				if (found) {
+					break;
+				}
+
 			}
 			if (found) 
 			{

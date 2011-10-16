@@ -7,6 +7,9 @@
 //#include <edtl/rtdm.h>
 #include "ksubtree_inspector.h"
 #include <ext/hash_map>
+#include <map>
+#include <utility>
+#include <list>
 #include <errno.h>
 
 #include <string.h>
@@ -22,6 +25,9 @@ namespace __gnu_cxx {
 #else
 namespace std {
 #endif
+
+#define TOP_CLASSES_LIST_SIZE 10
+#define CLASS_FREQ_DECAY_LIMITE 0.80
 
 /**
 	Define a funcao de hash para no HTML::Node.
@@ -240,7 +246,9 @@ void __printNodes(std::vector<uint> nodes, edtl::ctree<HTML::Node> *ct, std::str
 
 
 
-
+void print_node( const pair<unsigned int, unsigned int>& node ){
+   cout << node.second << " - " << node.first << endl;
+}
 
 int main(int argc, char **argv) {
 
@@ -262,8 +270,6 @@ int main(int argc, char **argv) {
 	
 	K.resize(30000); //define o tamanho de K, deve ser no mínimo o tamanho da árvore.
 	
-
-	
 	int offset = 0; //offset para K
 	int lim = 0;
 	int tamanho = 0;
@@ -271,7 +277,6 @@ int main(int argc, char **argv) {
 	FILE *htmlfile = NULL;
 	int tree_num = 0;
 	
-
 	tree<HTML::Node> tr = loadHTMLFile(filename); // Esta é a árvore DOM do tipo 1, bem genérica.
 	//funcoes q podem ser uteis
         /*
@@ -292,26 +297,57 @@ int main(int argc, char **argv) {
 	
 	tamanho = ctr.size();
 
-	//iterage em todas os nodos da árvore
-	for(i = 0; i < tamanho; i++)
-		{
-      //if (ctr.c_size(i) >= 3) 
-			cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
-			//Funcões que podem ser úteis.
-                        
-			// ctr.c_size(i) tamanho da subárvore no nodo i
-			// ctr.c_depth(i) profundidade do nodo i em relacao a raiz
-			// ctr.c_children(i), retorna um vector<uint> com os id's dos filhos do nodo i
-                        // ctr.c_children(i).size(), retorna o número de filhos do nodo i											
-                        // ctr.c_data_[i].text(), o texto completo daquele nodo, não apenas aquela tag
-			// ctr[i].isTag(), is node i a Tag?
-			// ctr[i].isComment(), is node i a Comment?
+	//iterage em todos os nodos para fazer contagem de frequencia
+	map<unsigned int, unsigned int> classFreq;
+	map<unsigned int, unsigned int>::iterator classFreqItr;
+	for(i = 0; i < tamanho; i++) {
+		cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
+		classFreq[ K[i] ]++;
+	}
 
-			// Mais detalhes em ctree.inl, ctree.h. 
-			
+	//ordena frequencia das classes
+	list< pair<unsigned int, unsigned int> > sortedClassFreq;
+	for(classFreqItr=classFreq.begin(); classFreqItr!=classFreq.end(); classFreqItr++) {
+		sortedClassFreq.push_back( make_pair(classFreqItr->second, classFreqItr->first) );
+	}
+	sortedClassFreq.sort();
+	//for_each( sortedClassFreq.begin(), sortedClassFreq.end(), print_node );
+
+	//seleciona as classes mais frequentes
+	map<unsigned int, unsigned int> topClasses;
+	list< pair<unsigned int, unsigned int> >::iterator sortedClassFreqItr = sortedClassFreq.end();
+	unsigned int lastFreq = (*--sortedClassFreqItr).first;
+	for(unsigned int i=0;
+		sortedClassFreqItr != sortedClassFreq.begin() && i < TOP_CLASSES_LIST_SIZE;
+		sortedClassFreqItr--, i++) {
+
+		unsigned int nodeFreq = (*sortedClassFreqItr).first;
+		unsigned int nodeClass = (*sortedClassFreqItr).second;
+
+		//verifica decaimento da frequencia
+		if( ((double)nodeFreq / lastFreq) < CLASS_FREQ_DECAY_LIMITE ) {
+			break;
+		}
+		lastFreq = nodeFreq;
+
+		//adiciona classe ao top
+		topClasses[nodeClass] = 0;
+	}
+
+	//imprime top
+	map<unsigned int, unsigned int>::iterator topClassesItr = topClasses.begin();
+	cout << "\nTopClasses:\n";
+	for(; topClassesItr!=topClasses.end(); topClassesItr++) {
+		cout << topClassesItr->first << "\n";
+	}
+
+	//atribui classes para cada registro
+	for(i = 0; i < tamanho; i++) {
+		if(topClasses.find(K[i]) != topClasses.end()) {
+			//TODO verifica se elementos das classes sao subarvores de arvores de outras classes
 		}
 
-	cout << "Done." << endl;
-}
+	}
 
+}
 
