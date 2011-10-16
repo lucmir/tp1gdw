@@ -20,13 +20,14 @@ LIBSFLAGS = -lhtmlcxx -Wl,--rpath  -Wl,/usr/local/lib
 COMPILE = $(CXX) $(CXXFLAGS) $(LIBSFLAGS)
 
 # ksubtrees
-KSUBTREES_TARGET = $(BINFOLDER)/ksubtrees
+KSUBTREES_TARGET = $(BINFOLDER)/ksubtrees 
 KSUBTREES_OBJS = $(KSUBTREES_DIR)/ksubtree_inspector_test.cc \
 				 $(KSUBTREES_DIR)/ksubtree_inspector.h \
 				 $(KSUBTREES_DIR)/ksubtree_inspector.inl \
 				 $(KSUBTREES_DIR)/ctree.h \
 				 $(KSUBTREES_DIR)/ctree.inl \
-				 $(KSUBTREES_DIR)/my_hash_map.h ksubtrees.c
+				 $(KSUBTREES_DIR)/ksubtrees.c \
+				 $(KSUBTREES_DIR)/my_hash_map.h 
 $(KSUBTREES_TARGET):
 	$(COMPILE) -o $(KSUBTREES_TARGET) $(KSUBTREES_DIR)/ksubtrees.c
 
@@ -44,7 +45,7 @@ htmlcxx_clean:
 	rm -rfv $(HTMLCXX_PATH)/${HTMLCXX_BIN_DIR}*
 
 # ksubtrees
-ksubtrees:	$(KSUBTREES_TARGET)
+ksubtrees:	$(KSUBTREES_TARGET) $(KSUBTREES_OBJS)
 
 # clean
 clean:
