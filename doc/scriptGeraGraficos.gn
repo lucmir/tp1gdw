@@ -1,0 +1,16 @@
+# ordem das colunas
+# 1-Tamanho Coleção;
+# 2-Tempo usuario; 
+# 3-Tempo sistema; 
+# 4-Tempo decorrido; 
+
+reset
+set terminal png #postscript eps enhanced "Arial" 17 color
+set encoding iso_8859_1
+set output "tamanho.png"
+set key inside right bottom vertical Left noreverse enhanced autotitles box
+set title "Numero de documentos indexados x Tempo" #font "Arial,20"
+set xlabel "Numero de Documentos indexados"
+set ylabel "Tempo em segundos"
+plot \
+'tempos' using 1:2 with lines notitle #t'30 geracoes', \

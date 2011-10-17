@@ -1,0 +1,248 @@
+\documentclass[a4paper,10pt,brazil]{article}
+\newcommand{\ultimamodificacao}{1 de dezembro de 2008}
+\pagenumbering{arabic}
+\usepackage[latin1]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{latexsym}
+\usepackage{indentfirst}
+\usepackage{epsfig}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{rotating}
+\usepackage{dinossauro}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{23,5cm}
+\evensidemargin 0cm
+\oddsidemargin 0cm
+\topmargin 0cm
+
+
+
+\title{Trabalho Prático 1:
+\\Extração Automática de Dados}
+\author{
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\\textbf{Disciplina:} Gerência de Dados da Web
+\\
+\\\textbf{Professor:} Alberto Laender
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\\textbf{Alunos:} Marco Túlio Correia Ribeiro
+\\Lucas Cunha de Oliveira Miranda
+\\
+\\\{marcotcr,lucmir\}@dcc.ufmg.br
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+}
+
+\begin{document}
+\begin{titlepage}
+ \maketitle
+ \thispagestyle{empty}
+\end{titlepage}
+
+
+\section{Introdução}
+Este trabalho consiste na implementação de um método para extração automática de
+dados presentes em uma coleção de páginas HTML fornecida como entrada.
+
+Para o processo de extração, consideramos as seguintes hipóteses:
+\begin{enumerate}
+\item Levando
+em consideração o trabalho proposto por Valiente~\cite{valiente}, os dados de
+interesse a serem extraídos das páginas estão nas folhas das sub-árvores que
+compõem a maior classe de equivalência dessas páginas. Essa hipótese, em geral,
+é válida - uma vez que cada registros presente nas páginas geralmente é
+composto por um único bloco, gerado automaticamente. Porém, em algumas páginas,
+os registros podem estar divididos em dois ou mais blocos, com classes de
+equivalência de tamanhos semelhantes. Portanto, a hipótese sob a qual
+implementamos o trabalho foi \textbf{``Os dados de interesse a serem extraídos das
+páginas estão nas folhas das 
+sub-árvores que compõem as classes de equivalência mais frequentes dessas páginas''}, ou
+seja, consideramos a possibilidade de registros aparecerem em duas ou mais
+classes de equivalência frequentes.
+
+\item \textbf{As folhas devem ser desconsideradas ao se calcular classes de
+equivalência das sub-árvores.} Essa hipótese é simples de ser verificada. A
+figura \ref{amazon}, por exemplo, retirada de uma página da amazon, contém 4
+registros. Se as folhas forem consideradas ao se assinalar classes de
+equivalência, cada sub-árvore contendo um registro será assinalada a uma classe
+de equivalência. Se as folhas não forem consideradas, por outro lado, todas as
+sub-árvores contendo os registros serão assinalados à mesma classe de
+equivalência, e essa classe de equivalência será considerada frequente,
+facilitando a extração dos registros.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{figura1.png}
+\caption{Exemplo de página da amazon}
+\label{amazon}
+\end{figure}
+\item \textbf{Folhas compostas por tags HTML não são dados de interesse a serem
+extraídos} - Uma vez que o nosso extrator só lida com texto, folhas compostas
+por tags com imagens ou similares não são de nosso interesse - e portanto foram
+descartadas.
+\end{enumerate}
+
+\section{Implementação}
+Nesta seção, detalhamos a metodologia utilizada para a implementação do
+extrator, em especial visando as três hipóteses levantadas na seção anterior. 
+
+\subsection{Determinando as sub-árvores de interesse}
+Para a determinação das classes de equivalência, utilizamos o método de
+Valiente~\cite{valiente} levemente modificado, tal que as folhas não sejam
+consideradas na determinação de classes de equivalência. Essa modificação é
+descrita em maiores detalhes na subseção seguinte. Foi fornecido o código fonte
+de uma implementação do método original.
+
+Considerando a hipótese \textbf{``Os dados de interesse a serem extraídos das
+páginas estão nas folhas das 
+sub-árvores que compõem as classes de equivalência mais frequentes dessas
+páginas''}, existe um compromisso entre a frequência de uma classe de
+equivalência e o tamanho da sub-árvore que é representada por essa classe. Em
+geral, as folhas compõem as maiores classes de equivalência (embora as mesmas
+não sejam consideradas por nosso extrator, devido à hipótese 2). As sub-árvores
+de tamanho 2, compostas geralmente por tags HTML envolvendo as folhas, são
+geralmente as
+próximas classes de equivalência mais frequentes. Na figura \ref{amazon}, por
+exemplo, a sub-árvore contendo a tag <a> (anchor), que envolve todos os
+links demonstrados em azul na página, é a que possui a classe de
+equivalência mais frequente. Porém, muitas das folhas encapsuladas por essa tag
+não contém dados de interesse (``Home \& Kitchen'', por exemplo).
+
+Utilizando vários exemplos de teste, chegamos à conclusão que é interessante
+avaliar apenas sub-árvores de tamanho mínimo 3. Uma vez que esse parâmetro é
+determinado, precisamos decidir quais classes de equivalência devem ser
+consideradas ``de interesse''. Para tal, decidimos considerar as 10 classes de
+equivalência mais frequentes como interessantes, desde que o decaimento de frequência entre uma
+classe e a próxima menos frequente seja menos do que um limiar, que fixamos em
+90\%. A determinação de classes de equivalência que
+representam sub-árvores de interesse é apresentada em pseudo-código na Figura
+2, a seguir.
+
+\begin{figure}[h!]
+\begin{algorithmic}[1]
+\STATE{Dada uma página html:}
+\STATE{Utiliza o método de valiente modificado para determinar as classes de
+equivalência}
+\STATE{Conta a frequência das classes de equivalência que representam as sub-árvores
+de tamanho mínimo 3}
+\STATE{Ordena as classes de equivalência por frequência}
+\STATE{i = 1}
+\FORALL{Classe de equivalência frequente $j$}
+  \IF{$Frequencia_j / Frequencia_{j-1} < 0.1$ OR $i = 10$}
+     \STATE{break}
+  \ENDIF
+  \STATE{Adiciona $j$ à lista das classes de interesse}
+  \STATE{i++}
+\ENDFOR
+\end{algorithmic}
+\label{codigo1}
+\caption{Determinação de classes de equivalência que representam sub-árvores de
+interesse.}
+\end{figure}
+
+
+\subsection{Modificação no método de Valiente}
+Dada a hipótese \textbf{``As folhas devem ser desconsideradas ao se calcular classes de
+equivalência das sub-árvores.''}, foi necessário modificar pontualmente o método
+proposto por Valiente~\cite{valiente}, de forma que os \emph{mappings
+bottom-up} não levem em consideração as folhas. Por exemplo, a Figura
+\ref{trees1} mostra através de nós coloridos de verde a maior floresta comum
+entre a Arvore 1 e a Arvore 2, utilizando o método de valiente. Vale notar que o
+que impediu que uma floresta comum maior fosse identificada é a diferença
+entre as folhas 2 (da Arvore 1) e 5 (da Arvore 2). A figura \ref{trees2}, por
+outro lado, mostra a maior floresta comum entre as duas árvores utilizando o
+método de Valiente modificado, de forma que as folhas não são consideradas.
+Nesse caso, as duas árvores são consideradas equivalentes.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{trees1.png}
+\caption{Maior floresta comum entre Arvore1 e Arvore2, utilizando o método de
+Valiente.}
+\label{trees1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{trees2.png}
+\caption{Maior floresta comum entre Arvore1 e Arvore2, utilizando o método de
+Valiente modificado.}
+\label{trees2}
+\end{figure}
+
+Desta forma, sub-árvores contendo os registros serão consideradas equivalentes,
+mesmo se os registros em si contenham dados diferentes.
+
+\subsection{A extração}
+Utilizando a metodologia descrita na subseção 2.1, um conjunto de no máximo 10
+classes de equivalência consideradas interessantes é extraído. Dado esse
+conjunto, é possível que existam classes de equivalência que contém outras
+classes de equivalência, e isso não é desejável. Portanto, removemos do conjunto
+qualquer classe de equivalência que represente uma sub-árvore de outra classe de
+equivalência.
+
+Dadas o conjunto atualizado das classes de equivalência de interesse, as folhas que não são compostas
+por tags html (segundo a hipótese 3 apresentada na introdução deste relatório)
+são extraídas. Todas as extrações são consideradas parte do mesmo registro, até
+que se uma classe de equivalência se repita. O pseudo-código do processo de
+extração é apresentado na Figura 5, a seguir:
+
+\begin{figure}[h!]
+\begin{algorithmic}[1]
+\STATE{Dado o conjunto de classes de equivalencia $c$ interessantes e a página
+html $p$ }
+\STATE{Remove de $c$ todas as classes de equivalência que estão contidas em
+outras classes de equivalência}
+\STATE{$primeira\_classe=NULL$}
+\FORALL{Nodos $n$ de $p$}
+\IF{$n$ pertence a $c$}
+\IF{$primeira\_classe=NULL$}
+\STATE{$primeira\_classe=n$}
+\ENDIF
+\IF{$n = primeira\_classe$}
+  \STATE{Inicia um registro novo}
+\ENDIF
+\STATE{Extrai as folhas de $n$ que não sejam tags html}
+\ENDIF
+\ENDFOR
+\end{algorithmic}
+\label{codigo2}
+\caption{Determinação de classes de equivalência que representam sub-árvores de
+interesse.}
+\end{figure}
+
+
+
+
+
+\bibliographystyle{plain}
+\bibliography{doc}
+
+\end{document}
