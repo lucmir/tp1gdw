@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.8.18)  17 OCT 2011 17:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.29)  18 OCT 2011 04:02
 entering extended mode
  %&-line parsing enabled.
 **doc.tex
@@ -81,7 +81,7 @@ File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
@@ -182,7 +182,20 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/boxedminipage.sty)) (./doc.aux)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/boxedminipage.sty)) (./doc.aux
+
+LaTeX Warning: Label `amazon' multiply defined.
+
+
+LaTeX Warning: Label `amazon' multiply defined.
+
+
+LaTeX Warning: Label `amazon' multiply defined.
+
+
+LaTeX Warning: Label `amazon' multiply defined.
+
+)
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -197,8 +210,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen117
@@ -247,30 +259,108 @@ Overfull \hbox (2.84009pt too wide) in paragraph at lines 204--210
 on-junto de no m^^Saximo 10 classes de equival^encia
  []
 
-[2] (./doc.bbl [3 <./trees1.png (PNG copy)> <./trees2.png (PNG copy)>])
-[4] (./doc.aux) ) 
+[2] [3 <./trees1.png (PNG copy)> <./trees2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
+
+ []
+
+<colecao1.png, id=29, 688.5725pt x 622.325pt>
+File: colecao1.png Graphic file (type png)
+ <use colecao1.png> [4 <./colecao1.png>] <colecao2.png, id=35, 730.73pt x 610.2
+8pt>
+File: colecao2.png Graphic file (type png)
+ <use colecao2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<colecao3.png, id=36, 822.07124pt x 622.325pt>
+File: colecao3.png Graphic file (type png)
+ <use colecao3.png> [5]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<colecao4.png, id=40, 796.9775pt x 620.3175pt>
+File: colecao4.png Graphic file (type png)
+ <use colecao4.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 487--487
+[]\OT1/cmr/m/n/10 winesByProducer01| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 489--489
+[]\OT1/cmr/m/n/10 winesByProducer02| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 491--491
+[]\OT1/cmr/m/n/10 winesByProducer03| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 506--506
+[]\OT1/cmr/m/n/10 winesByProducer01| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 508--508
+[]\OT1/cmr/m/n/10 winesByProducer02| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 510--510
+[]\OT1/cmr/m/n/10 winesByProducer03| 
+ []
+
+[6 <./colecao2.png>]
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 527--527
+[]\OT1/cmr/m/n/10 winesByProducer01| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 529--529
+[]\OT1/cmr/m/n/10 winesByProducer02| 
+ []
+
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 531--531
+[]\OT1/cmr/m/n/10 winesByProducer03| 
+ []
+
+[7 <./colecao3.png>]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+[8 <./colecao4.png>] (./doc.bbl) [9] (./doc.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2324 strings out of 495061
- 28680 string characters out of 1182621
- 92047 words of memory out of 3000000
- 5460 multiletter control sequences out of 15000+50000
+ 2347 strings out of 495061
+ 29049 string characters out of 1182621
+ 98355 words of memory out of 3000000
+ 5479 multiletter control sequences out of 15000+50000
  10005 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,8n,28p,220b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on doc.pdf (5 pages, 438730 bytes).
+ 32i,10n,28p,234b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmti10.pfb>
+Output written on doc.pdf (10 pages, 848017 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

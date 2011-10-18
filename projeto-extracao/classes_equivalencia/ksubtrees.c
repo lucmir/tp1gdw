@@ -27,7 +27,8 @@ namespace std {
 #endif
 
 #define TOP_CLASSES_LIST_SIZE 10
-#define CLASS_FREQ_DECAY_LIMITE 0.1
+#define CLASS_FREQ_DECAY_LIMITE 0.2
+#define MIN_TREE_SIZE 4
 
 /**
 	Define a funcao de hash para no HTML::Node.
@@ -244,18 +245,14 @@ void __printNodes(std::vector<uint> nodes, edtl::ctree<HTML::Node> *ct, std::str
 	}
 }
 
-
-
 void print_node( const pair<unsigned int, unsigned int>& node ){
    cout << node.second << " - " << node.first << endl;
 }
-
 
 void RemoveSubtrees(map<unsigned int, unsigned int>& topClasses, ctree<HTML::Node>& ctr, vector<uint>& K, uint node) {
   vector<uint> children = ctr.c_children(node);
   for (uint i = 0; i < children.size(); ++i) {
     if (topClasses.count(K[children[i]]) > 0) {
-      cout << "Estou removendo o cara " << K[children[i]]<< ",  filho do " <<K[node]<<endl;
       topClasses.erase(K[children[i]]);
     }
     else {
@@ -330,11 +327,11 @@ int main(int argc, char **argv) {
 	map<unsigned int, unsigned int>::iterator classFreqItr;
 	map<unsigned int, unsigned int> class_index;
 	for(i = 0; i < tamanho; i++) {
-		cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
-    if (ctr.c_size(i) >= 3) {
-		  classFreq[ K[i] ]++;
-      class_index[ K[i] ] = i;
-    }
+		//cout << "Indice: " << i << "\tClasse: " << K[i] << "\t" << ctr.c_depth(i) << "\tConteúdo do Nodo: " << ctr[i].text() << endl;//<< (string)ctr[i] <<endl;
+		if (ctr.c_size(i) >= MIN_TREE_SIZE) {
+			classFreq[ K[i] ]++;
+			class_index[ K[i] ] = i;
+		}
 	}
 
 	//ordena frequencia das classes
@@ -343,7 +340,7 @@ int main(int argc, char **argv) {
 		sortedClassFreq.push_back( make_pair(classFreqItr->second, classFreqItr->first) );
 	}
 	sortedClassFreq.sort();
-	for_each( sortedClassFreq.begin(), sortedClassFreq.end(), print_node );
+//	for_each( sortedClassFreq.begin(), sortedClassFreq.end(), print_node );
 
 	//seleciona as classes mais frequentes
 	map<unsigned int, unsigned int> topClasses;
@@ -368,24 +365,26 @@ int main(int argc, char **argv) {
 
 	//imprime top
 	map<unsigned int, unsigned int>::iterator topClassesItr = topClasses.begin();
-	cout << "\nTopClasses:\n";
-	for(; topClassesItr!=topClasses.end(); topClassesItr++) {
-		cout << topClassesItr->first << "\n";
-	}
+//	cout << "\nTopClasses:\n";
+//	for(; topClassesItr!=topClasses.end(); topClassesItr++) {
+//		cout << topClassesItr->first << "\n";
+//	}
 
 	//remove subtrees dos top10
 	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); ++topClassesItr) {
 		RemoveSubtrees(topClasses, ctr, K, class_index[topClassesItr->first]);
 	}
 
-	cout << "\nTopClasses:\n";
-	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); topClassesItr++) {
-		cout << topClassesItr->first << "\n";
-	}
+//	cout << "\nTopClasses:\n";
+//	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); topClassesItr++) {
+//		cout << topClassesItr->first << "\n";
+//	}
 
 	//imprime registros
+	unsigned int regCount = 0;
 	for(i=0; i < tamanho; i++) {
 		if(topClasses.find(K[i]) != topClasses.end()) {
+			printf("\n%d)\n", ++regCount);
 			PrintLeafNodes(ctr, i);
 		}
 	}
