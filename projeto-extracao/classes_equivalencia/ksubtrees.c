@@ -278,14 +278,12 @@ void PrintLeafNodes(ctree<HTML::Node>& ctr, uint node) {
 
 int main(int argc, char **argv) {
 
-         if(argc != 2)
-	   {
-	     printf("usage: %s <html file>\n",argv[0]);
-	     exit(1);
-	   }
-	 char* filename = argv[1]; //nome do arquivo html limpo (em uma linha apenas.)
+	if (argc != 2) {
+		printf("usage: %s <html file>\n", argv[0]);
+		exit(1);
+	}
+	char* filename = argv[1]; //nome do arquivo html limpo (em uma linha apenas.)
 	 
-
 	vector<uint> K; //vetor que conterá as classes de equivalencia para cada nodo.
 	KSubtreeInspector<HTML::Node, MY_NS_HASH<HTML::Node>, node_comparator> inspec; //o objeto que calcula as classes de equiv.
 	uint i;
@@ -303,20 +301,7 @@ int main(int argc, char **argv) {
 	int tree_num = 0;
 	
 	tree<HTML::Node> tr = loadHTMLFile(filename); // Esta é a árvore DOM do tipo 1, bem genérica.
-	//funcoes q podem ser uteis
-        /*
-	tree<HTML::Node>::iterator it = tr.begin();
-	tree<HTML::Node>::iterator itend = tr.end();
-	for(;it!=itend;it++)
-	{
-		cout << it->text() << endl;	
-	}
-	cout << "=================" << endl;
-	*/
-	//tr.erase(it), apaga o nodo na posição iterator.
-        //mais detalhes em htmlcxx-0.7.3/html/tree.h
 
-        //o tipo ctree<HTML::Node> possui tree<HTML::Node> e mais alguns metadados, isso é necessário para addTree()
 	ctree<HTML::Node> ctr = ctree<HTML::Node>(tr);	//carrega a árvore do arquivo filename.
 	inspec.addTree(ctr, (unsigned)offset, dag_hash, G, Garcs, K);	
 	
@@ -340,7 +325,6 @@ int main(int argc, char **argv) {
 		sortedClassFreq.push_back( make_pair(classFreqItr->second, classFreqItr->first) );
 	}
 	sortedClassFreq.sort();
-//	for_each( sortedClassFreq.begin(), sortedClassFreq.end(), print_node );
 
 	//seleciona as classes mais frequentes
 	map<unsigned int, unsigned int> topClasses;
@@ -365,27 +349,17 @@ int main(int argc, char **argv) {
 
 	//imprime top
 	map<unsigned int, unsigned int>::iterator topClassesItr = topClasses.begin();
-//	cout << "\nTopClasses:\n";
-//	for(; topClassesItr!=topClasses.end(); topClassesItr++) {
-//		cout << topClassesItr->first << "\n";
-//	}
 
 	//remove subtrees dos top10
 	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); ++topClassesItr) {
 		RemoveSubtrees(topClasses, ctr, K, class_index[topClassesItr->first]);
 	}
 
-//	cout << "\nTopClasses:\n";
-//	for(topClassesItr = topClasses.begin(); topClassesItr != topClasses.end(); topClassesItr++) {
-//		cout << topClassesItr->first << "\n";
-//	}
-
 	//imprime registros
-	unsigned int regCount = 0;
 	for(i=0; i < tamanho; i++) {
 		if(topClasses.find(K[i]) != topClasses.end()) {
-			printf("\n%d)\n", ++regCount);
 			PrintLeafNodes(ctr, i);
+			cout << endl;
 		}
 	}
 

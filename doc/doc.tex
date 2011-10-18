@@ -241,38 +241,63 @@ interesse.}
 
 \section{Avaliação Experimental}
 
-A qualidade de um extrator é determinada por sua capacidade de coletar o maior número possível de registros úteis, agregando o mínimo possível de informações irrelevantes.
+O processo de extração proposto e implementado deve ser avaliado quanto à sua efetividade.
+A qualidade de um extrator é determinada pela capacidade de coletar o maior número possível de registros úteis, agregando o mínimo possível de informações irrelevantes.
 
-\subsection{Metodologia}
+\subsection{Metodologia de avaliação}
+
+A avaliação experimental consiste na aplicação de métricas tradicionais para quantificar o resultado da extração de informações em páginas de dados reais.
+Cada página empregada nos experimentos possui um gabarito correspondente, contendo todos os registros relevantes que devem ser extraídos.
+A comparação entre o resultado da extração e o gabarito, por meio de métricas apropriadas, fornece uma medida de efetividade do processo de extração.
 
 \subsubsection{Métricas}
-Para medir a... ({\it recall}) e precisão {\it precision}.
-%TODO buscar no tp de RI ou na internet
-    %TODO fórmulas
-    %TODO referências
 
-\subsubsection{Como medir}
+Para avaliar a qualidade do extrator, empregou-se as métricas precisão ({\it precision}) e revocação ({\it recall}) \cite{makhoul1999performance}.
+A primeira mede a quantidade de respostas corretas em relação ao total de respostas retornadas e a segunda determina a quantidade de respostas corretas obtidas em relação ao total de respostas esperadas (relevantes):
+$$ prec = \frac{respostas\ corretas}{respostas\ retornadas}   \qquad  rev = \frac{respostas\ corretas}{total\ de\ respostas} $$
 
-As métricas serão aplicadas de duas maneiras... \\
-por registro
-por atributo...\\
-por média dos valores de precisão e revocação de cada registro\\
+\subsubsection{Aplicação das métricas}
 
+O processo de extração prentende obter, de páginas html, registros relevantes. Cada registro, por sua vez, contém atributos diversos.
+É importante que a avaliação do extrator considere a efetividade do processo de obtenção dos registros e dos seus atributos.
+
+Para tanto, empregou-se três métodos de avaliação:
+\begin{itemize}
+    \item Cálculo da precisão e revocação sobre os registros extraídos. 
+Ou seja, avaliação da habilidade do algoritmo de localizar e extrair os registros relevantes.
+    \item Cálculo da precisão e revocação sobre os atributos extraídos.
+Neste caso, o total de atributos relevantes extraídos que interessa, sendo considerados de maneira independente dos registros.
+    \item Cálculo da precisão e revocação média dos registros extraídos. 
+Este cálculo considera, respectivamente, a média aritmética da precisão e da revocação da extração dos
+valores dos atributos de cada registro. Ou seja, a precisão da extração de um
+registro será dada pela média dos valores de precisão da extração de todos os seus
+atributos e a revocação por registro será dada de maneira análoga. 
+\end{itemize}
 
 \subsection{Experimentos e resultados}
 
-Os experimentos foram aplicados sobre 4 coleções, considerando a metodologia explicada.
+A metodologia descrita foi empregada na avaliação do extrator atuando sobre quatro coleções, contento, cada uma, três páginas reais.
+O detalhamento dos experimentos, os resultados e a análise dos dados, para cada coleção, são apresentados em seguida.
+
 
 \subsubsection{Coleção {\bf ``cdnow''}}
 
-Esta coleção, possui...
+A coleção ``cdnow'' é composta por páginas de um site de venda de álbuns de música. 
+Como pode ser visto na figura \ref{colecao1}, a página contém, basicamente, um menu com estilos musicais, um campo
+para busca e uma relação de álbuns à venda. Neste caso, os registros de interesse são os álbuns e os atributos de cada
+registro são o artista, o título do álbum e os dois valores de preço.
+
+\newpage
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.55]{colecao1.png}
+\includegraphics[scale=0.5]{colecao1.png}
 \caption{Página exemplo da coleção {\bf ``cdnow''}}
-\label{amazon}
+\label{colecao1}
 \end{figure}
+
+A tabela \ref{tabcol1a} contém os valores obtidos com o cálculo das métricas considerando apenas os registros extraídos 
+(independente dos atributos estarem completos).
 
 \begin{table}[htpb!]
     \begin{center}
@@ -288,8 +313,17 @@ Esta coleção, possui...
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por registro para coleção {\bf ``cdnow''}}
+    \label{tabcol1a}
     \end{center}
 \end{table}
+
+Os dados da tabela \ref{tabcol1a} sugerem que o algoritmo foi capaz de extrair todos 
+os registros relevantes (revocação igual a 1.0). 
+Entretanto, como a precisão não foi alta, o extrator também retornou dados irrelevantes.
+Observando a página e analisando o conteúdo retornado, constata-se que o menu de estilos musicais também foi coletado.
+Isso ocorreu devido ao fato do menu ser bem estruturado e conter muitas entradas, sendo facilmente confundido com uma relação de registros relevantes.
+
+A tabela \ref{tabcol1b} contém o cálculo de precisão e revocação considerando a coleta de atributos.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -305,11 +339,15 @@ Esta coleção, possui...
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por atributo para coleção {\bf ``cdnow''}}
+    \label{tabcol1b}
     \end{center}
 \end{table}
 
-4 atributos por registro.
-Os registros adicionais possuiam poucos atributos. 
+Neste caso, cada registro contém exatamente 4 atributos. 
+Todos os atributos dos registros relevantes foram coletados pelo extrator (o que é representado pelo valor de revocação 1.0).
+Os atributos adicionais coletados, responsáveis pela redução da precisão, são os da listagem de estilos musicais (considerou-se um atributo por item).
+
+A tabela \ref{tabcol1c} contém a média dos valores por registro para a coleção.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -325,24 +363,30 @@ Os registros adicionais possuiam poucos atributos.
             \hline
         \end{tabular}
     \caption{Resultados da avaliação considerando a média dos valores por registro para a coleção {\bf ``cdnow''}}
+    \label{tabcol1c}
     \end{center}
 \end{table}
 
-Os 30 registros do gabarito foram extraidos corretamente (com todos os atributos).
+Os 30 registros do gabarito foram extraídos corretamente (com todos os atributos).
 Entretanto, foram obtidos 9 registros adicionais, que não são relevantes para o objetivo da extração.
 Para cada um destes registros, a precisão e a revocação assumem valor 0. 
 Portanto, os valores de precisão e revocação são calculados pela média aritmética $\frac{ 30 \times 1.0 + 9 \times 0.0 }{ 39 } = 0.77 $.
 
 \subsubsection{Coleção {\bf ``monster''}}
 
-Esta coleção, possui...
+A coleção ``monster'' contém páginas com uma listagem de registros formados pelos atributos: data, localização, cargo e companhia. 
+A figura \ref{colecao2} é um exemplar desta coleção:
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.55]{colecao2.png}
+\includegraphics[scale=0.57]{colecao2.png}
 \caption{Página exemplo da coleção {\bf ``monster''}}
-\label{amazon}
+\label{colecao2}
 \end{figure}
+
+\newpage 
+
+A tabela \ref{tabcol2a} apresenta o cálculo das métricas considerando apenas os registros.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -358,10 +402,14 @@ Esta coleção, possui...
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por registro para coleção {\bf ``monster''}}
+    \label{tabcol2a}
     \end{center}
 \end{table}
+Neste caso, não foi coletado nenhum registro adicional. Portanto, a precisão foi 1.0.
+Entretanto, para a segunda página da coleção, alguns registros foram perdidos, ocasionando uma redução na revocação.
+A justificativa para isso é o fato de algumas entradas conterem um número menor de atributos, o que modifica a estrutura padrão dos registros.
 
-Não foi coletado nenhum registro adicional
+A tabela \ref{tabcol2b} contém os valores de precisão e revocação considerando atributos.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -377,13 +425,12 @@ Não foi coletado nenhum registro adicional
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por atributo para coleção {\bf ``monster''}}
+    \label{tabcol2b}
     \end{center}
 \end{table}
-
-monster1 contém 6 atributos por registro.
-monster2 contém 6 atributos por registro, exceto por uma tupla que contém apenas 4.
-monster4 contém6 atributos por registro, exceto por uma tupla que contém apenas 5.
-Todos os atributos dos registros extraidos foram coletados corretamente.
+Todos os atributos coletados são relevantes.
+Mas, como já foi observado, alguns registros (e seus atributos) não foram coletados.
+Entretanto, a porcentagem de registros relevantes coletados foi alta.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -399,19 +446,29 @@ Todos os atributos dos registros extraidos foram coletados corretamente.
             \hline
         \end{tabular}
     \caption{Resultados da avaliação considerando a média dos valores por registro para a coleção {\bf ``monster''}}
+    \label{tabcol2c}
     \end{center}
 \end{table}
+A tabela \ref{tabcol2c} contém o valores das médias das métricas por registro.
+A ausência de dados irrelevantes na coleta e a falha ao coletar todos os registros ficam evidentes neste cálculo.
 
-Os atributos foram coletados corretamente, entretanto alguns registros inteiros foram perdidos no caso de registros com formatação diferente..
+\subsubsection{Coleção {\bf ``music\_allmusic.com''}}
 
-\subsubsection{Coleção {\bf ``music\_musicall''}}
+A coleção ``music\_allmusic.com'' contém páginas com informações de artistas e álbuns.
+Cada detalhe de um álbum é um registro que contém como atributos informações como o ano de lançamento e o artista.
+A figura \ref{colecao3} é um exemplo de página da coleção ``music\_allmusic.com'':
+
+\newpage
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.55]{colecao3.png}
-\caption{Página exemplo da coleção {\bf ``music\_musicall.com''}}
-\label{amazon}
+\includegraphics[scale=0.36]{colecao3.png}
+\caption{Página exemplo da coleção {\bf ``music\_allmusic.com''}}
+\label{colecao3}
 \end{figure}
+
+A tabela \ref{tabcol3a} apresenta os valores para as métricas considerando registros, 
+enquanto em \ref{tabcol3b} estão os dados tratando atributos.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -426,11 +483,14 @@ Os atributos foram coletados corretamente, entretanto alguns registros inteiros 
             006 & 50 & 46 & 46 & 1.0 & 0.92\\
             \hline
         \end{tabular}
-    \caption{Resultados da avaliação por registro para coleção {\bf ``music\_musicall.com''}}
+    \caption{Resultados da avaliação por registro para coleção {\bf ``music\_allmusic.com''}}
+    \label{tabcol3a}
     \end{center}
 \end{table}
 
-Não foi coletado nenhum registro adicional
+O valor 1.0 de precisão evidencia que não foi coletado nenhum registro adicional (não relevante).
+Entretanto, alguns registros foram perdidos. A análise da página mostrou que alguns registros possuem uma estrutura irregular,
+prejudicando a qualidade da coleta. Apesar disso, os valores de precisão e revocação foram altos.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -445,12 +505,14 @@ Não foi coletado nenhum registro adicional
             006 & 200 & 184 & 184 & 1.0 & 0.92\\
             \hline
         \end{tabular}
-    \caption{Resultados da avaliação por atributo para coleção {\bf ``music\_musicall.com''}}
+    \caption{Resultados da avaliação por atributo para coleção {\bf ``music\_allmusic.com''}}
+    \label{tabcol3b}
     \end{center}
 \end{table}
 
-Gabarito apresenta 3 Atributos por registro, entretanto, a primeira coluna deveria ser computada...
-cálculos consideraram esta coluna
+O gabarito para esta coleção contém somente 3 atributos por registro.
+Entretanto, a primeira coluna de descrição de cada registro ({\it Tier}),
+também compõe o registro e deve ser considerada no cálculo.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -465,18 +527,32 @@ cálculos consideraram esta coluna
             006 & 1.0 & 0.88\\
             \hline
         \end{tabular}
-    \caption{Resultados da avaliação considerando a média dos valores por registro para a coleção {\bf ``music\_musicall.com''}}
+    \caption{Resultados da avaliação considerando a média dos valores por registro para a coleção {\bf ``music\_allmusic.com''}}
+    \label{tabcol3c}
     \end{center}
 \end{table}
 
+A tabela \ref{tabcol3c} contém os valores calculados da média de precisão e revocação por registro.
+Como nenhum registro irrelevante foi coletado e todos os registros de interesse foram extraídos, a precisão obtida é 1.0.
+Os valores de revocação foram elevados, já que, poucos atributos foram negligenciados pelo extrator.
+
 \subsubsection{Coleção {\bf ``wines''}}
+
+A coleção ``wines'' contém páginas como a da figura \ref{colecao4}.
+Cada registro é formado pelos atributos que descrevem uma variedade de vinho (título, descrição, preço, etc).
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.55]{colecao4.png}
+\includegraphics[scale=0.45]{colecao4.png}
 \caption{Página exemplo da coleção {\bf ``wines''}}
-\label{amazon}
+\label{colecao4}
 \end{figure}
+
+A tabela \ref{tabcol4a} apresenta os valores para as métricas considerando registros.
+Assim como ocorreu para a primeira coleção analisada, a precisão foi reduzida, enquanto a revocação foi elevada.
+O motivo foi o mesmo da falha da outra coleção: o menu lateral também foi extraído pelo algoritmo.
+Neste caso, o número de itens neste menu é superior ao número de registros na página, o que aumenta a probabilidade
+de sua extração. Por isso, a precisão obtida foi muito prejudicada (a página contém apenas 10 registros e 16 itens no menu lateral).
 
 \begin{table}[htpb!]
     \begin{center}
@@ -492,10 +568,12 @@ cálculos consideraram esta coluna
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por registro para coleção {\bf ``wines''}}
+    \label{tabcol4a}
     \end{center}
 \end{table}
 
-O menu foi capturado por ser bem estruturado e possuir mais registros do que a tabela principal (que contém as informações de interesse).
+Os dados da tabela \ref{tabcol4b} são referentes aos atributos e 
+a tabela \ref{tabcol4c} contém o cálculo das métricas para a média por registro.
 
 \begin{table}[htpb!]
     \begin{center}
@@ -511,12 +589,9 @@ O menu foi capturado por ser bem estruturado e possuir mais registros do que a t
             \hline
         \end{tabular}
     \caption{Resultados da avaliação por atributo para coleção {\bf ``wines''}}
+    \label{tabcol4b}
     \end{center}
 \end{table}
-
-Cada registro possui 6 atributos.
-Foram coletados 16 atributos a mais (referentes ao menu) e 
-2 registros ficaram com apenas um atributo coletado por causa da ausência do título
 
 \begin{table}[htpb!]
     \begin{center}
@@ -532,18 +607,20 @@ Foram coletados 16 atributos a mais (referentes ao menu) e
             \hline
         \end{tabular}
     \caption{Resultados da avaliação considerando a média dos valores por registro para a coleção {\bf ``wines''}}
+    \label{tabcol4c}
     \end{center}
 \end{table}
 
-
-16*0 + 9+1.0 +1*
-
-%\subsubsection{Avaliação de tempo}
-%TODO
+\newpage
+O extrator teve seu pior desempenho para esta coleção.
+Além do menu conter mais itens que a lista de registros, os dados não estão bem formatados na página.
+Um exemplo disso é o fato de somente alguns registros possuirem um título adicional (acima de seu {\it link}).
 
 \section{Conclusão}
 
-asasd
+O trabalho prático 1 consistiu no desenvolvimento de um método para extração automática de dados presentes em coleções de páginas HTML.
+Além da implementação, foi realizada uma análise experimental para validar a efetividade da proposta.
+Os dados da tabela \ref{tabfinal} resumem os resultados obtidos:
 
 \begin{table}[htpb!]
     \begin{center}
@@ -559,14 +636,20 @@ asasd
             \hline
             Revocação por atributo & 1.0 & 0.97 & 0.91 & 0.88 & 0.94\\
             \hline
-            Precisão pela média & 0.77 & 1.0 & 1.0 & 0.38 & 0.79\\
+            Precisão pela média por registro & 0.77 & 1.0 & 1.0 & 0.38 & 0.79\\
             \hline
-            Revocação pela média & 0.77 & 0.96 & 0.89 & 0.34 & 0.74\\
+            Revocação pela média por registro & 0.77 & 0.96 & 0.89 & 0.34 & 0.74\\
             \hline
         \end{tabular}
     \caption{Média dos resultados por coleção e média geral de todos os resultados}
+    \label{tabfinal}
     \end{center}
 \end{table}
+
+A tabela \ref{tabfinal} contém a média dos valores obtidos para cada coleção, considerando cada métrica empregada.
+Também é apresentado um valor de média geral, que sumariza os resultados de todas as coleções. 
+Os valores elevados de precisão e revocação, exceto para ocasiões específicas e justificáveis, sugerem que o método implementado 
+é genérico e efetivo.
 
 
 \bibliographystyle{plain}

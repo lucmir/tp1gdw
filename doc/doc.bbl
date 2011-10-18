@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{makhoul1999performance}
+J.~Makhoul, F.~Kubala, R.~Schwartz, and R.~Weischedel.
+\newblock Performance measures for information extraction.
+\newblock In {\em Broadcast News Workshop 99 Proceedings}, pages 249--252.
+  Morgan Kaufmann Pub, 1999.
+
 \bibitem{valiente}
 Gabriel Valiente.
 \newblock An efficient bottom-up distance between trees.

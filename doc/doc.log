@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.29)  18 OCT 2011 04:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.29)  18 OCT 2011 06:38
 entering extended mode
  %&-line parsing enabled.
 **doc.tex
@@ -182,20 +182,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/boxedminipage.sty)) (./doc.aux
-
-LaTeX Warning: Label `amazon' multiply defined.
-
-
-LaTeX Warning: Label `amazon' multiply defined.
-
-
-LaTeX Warning: Label `amazon' multiply defined.
-
-
-LaTeX Warning: Label `amazon' multiply defined.
-
-)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/boxedminipage.sty)) (./doc.aux)
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -210,7 +197,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen117
@@ -260,107 +248,94 @@ on-junto de no m^^Saximo 10 classes de equival^encia
  []
 
 [2] [3 <./trees1.png (PNG copy)> <./trees2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 256--260
-
- []
-
-<colecao1.png, id=29, 688.5725pt x 622.325pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 266.
+ [4]
+<colecao1.png, id=32, 688.5725pt x 622.325pt>
 File: colecao1.png Graphic file (type png)
- <use colecao1.png> [4 <./colecao1.png>] <colecao2.png, id=35, 730.73pt x 610.2
+ <use colecao1.png> [5 <./colecao1.png>] <colecao2.png, id=38, 730.73pt x 610.2
 8pt>
 File: colecao2.png Graphic file (type png)
- <use colecao2.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<colecao3.png, id=36, 822.07124pt x 622.325pt>
+ <use colecao2.png> [6 <./colecao2.png>] [7] <colecao3.png, id=47, 822.07124pt 
+x 622.325pt>
 File: colecao3.png Graphic file (type png)
- <use colecao3.png> [5]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<colecao4.png, id=40, 796.9775pt x 620.3175pt>
+<use colecao3.png> [8 <./colecao3.png>]
+<colecao4.png, id=52, 796.9775pt x 620.3175pt>
 File: colecao4.png Graphic file (type png)
  <use colecao4.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 487--487
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 563--563
 []\OT1/cmr/m/n/10 winesByProducer01| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 489--489
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 565--565
 []\OT1/cmr/m/n/10 winesByProducer02| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 491--491
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 567--567
 []\OT1/cmr/m/n/10 winesByProducer03| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 506--506
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 584--584
 []\OT1/cmr/m/n/10 winesByProducer01| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 508--508
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 586--586
 []\OT1/cmr/m/n/10 winesByProducer02| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 510--510
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 588--588
 []\OT1/cmr/m/n/10 winesByProducer03| 
  []
 
-[6 <./colecao2.png>]
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 527--527
+
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 602--602
 []\OT1/cmr/m/n/10 winesByProducer01| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 529--529
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 604--604
 []\OT1/cmr/m/n/10 winesByProducer02| 
  []
 
 
-Overfull \hbox (0.86415pt too wide) in paragraph at lines 531--531
+Overfull \hbox (0.86415pt too wide) in paragraph at lines 606--606
 []\OT1/cmr/m/n/10 winesByProducer03| 
  []
 
-[7 <./colecao3.png>]
+[9 <./colecao4.png>]
+Overfull \hbox (24.40726pt too wide) in paragraph at lines 627--644
+ [] 
+ []
 
-LaTeX Warning: Text page 8 contains only floats.
-
-[8 <./colecao4.png>] (./doc.bbl) [9] (./doc.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./doc.bbl) [10] (./doc.aux) ) 
 Here is how much of TeX's memory you used:
- 2347 strings out of 495061
- 29049 string characters out of 1182621
- 98355 words of memory out of 3000000
- 5479 multiletter control sequences out of 15000+50000
+ 2368 strings out of 495061
+ 29279 string characters out of 1182621
+ 93463 words of memory out of 3000000
+ 5500 multiletter control sequences out of 15000+50000
  10005 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,28p,234b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmti10.pfb>
-Output written on doc.pdf (10 pages, 848017 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on doc.pdf (11 pages, 858370 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
